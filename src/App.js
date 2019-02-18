@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Redirect} from 'react-router-dom'
 import Home from './Home'
 import ParticlesHome from './ParticlesHome'
 import AboutMe from './AboutMe'
+import Projects from'./Projects'
 
 
 
@@ -20,6 +21,7 @@ class App extends Component {
             <ParticlesHome/>
               <Home/>
               <AboutMe/>
+              <Projects/>
             </div>
           )}/>
           <Route exact={true} path='/Projects' render={() => (

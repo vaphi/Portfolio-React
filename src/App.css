@@ -122,6 +122,8 @@ background-color: #9eb1a3;
   left: 48.5%;
   text-align: center;
   display:inline-block;
+  height:auto;
+  width:auto;
   }
 
 .Navicons span {
@@ -143,13 +145,17 @@ background-color: #9eb1a3;
 /* ---- reset ---- */ 
 body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } 
 
-
+.alert hr{
+  border: none;
+  height: 2px;
+  color: darkslategrey;
+  background-color: darkslategray; 
+}
 /* About me section*/
 .Aboutme{
   width: 100%;
   height: 80vh;
   clear: both;
-  z-index: 1;
 }
 
 .aboutmetitle{
@@ -171,16 +177,17 @@ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; }
   width: 50%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: darkslateblue;
+  height: 85vh;
 }
 
 .aboutMeInfo{
   float: right;
   width: 50%;
-  height:85vh;;
+  height:85vh;
 }
 
 .listCont{
-  margin-top: 25%;
+  margin-top: 9%;
 }
 
 .list-group-horizontal .list-group-item {
@@ -205,9 +212,34 @@ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; }
 
 .vaCont{
   margin-top:10%;
-  width:350px;
+  width:50%;
   height: 450px;
+  height: auto;
 }
+
+/*Projects*/
+.Projects{
+  width: 100%;
+  height: 100vh;
+  clear: both !important;
+}
+
+.projecttitle{
+  width: 100%;
+  height: 15vh;
+  float: right !important;
+}
+
+.projecttitle h1{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 4vw;
+  font-weight: bold;
+  color: darkslateblue;
+}
+
 /*///////////////////////////////////////////////
               Menu and Nav Bar
 ///////////////////////////////////////////////*/

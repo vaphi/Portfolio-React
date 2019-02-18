@@ -39,6 +39,7 @@ class Home extends Component {
         </span>
       </div>
           </div>
+          
 
         )
     }

@@ -16,6 +16,13 @@ class AboutMe extends Component {
          </div>
          <div className="aboutMeInfo">
             <div className="listCont">
+            <div className="skills-0">
+            <ul class="list-group-horizontal">
+            <li class="list-group-item list-group-item-info">B.S Computer Science</li>
+            <li class="list-group-item list-group-item-success">Major in Software Engineering</li>
+            <li class="list-group-item list-group-item-success">Minor in Mathematics</li>
+            </ul>
+            </div>
             <div className="skills">
             <ul class="list-group-horizontal">
             <li class="list-group-item list-group-item-primary">PROFICIENT :</li>
