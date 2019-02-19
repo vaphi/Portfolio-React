@@ -8,9 +8,10 @@ body {
   overflow: auto;
   width: 100%;
   height: 100%;
+  zoom: 100%;
 }
 
-.HomeParticles canvas {
+.HomeParticles .App {
   display: block;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -24,10 +25,9 @@ body {
   width: 100%;
   height: 100%;
   position: fixed;
-  z-index: -10;
-  top: 0;
-  left: 0;
   background-color: #dbe3d5;
+  z-index: -10;
+  display: block;
 }
 /*
 .HomeParticles {
@@ -43,7 +43,6 @@ body {
 .Homesec{
   height: 100vh;
   max-width: 100vw;
-  z-index: 1;
   position: relative;
   text-align: center;
   display: -webkit-flex;
@@ -156,6 +155,8 @@ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; }
   width: 100%;
   height: 80vh;
   clear: both;
+  display: inherit;
+
 }
 
 .aboutmetitle{

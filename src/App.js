@@ -24,17 +24,6 @@ class App extends Component {
               <Projects/>
             </div>
           )}/>
-          <Route exact={true} path='/Projects' render={() => (
-            <div className="App">
-            <ParticlesHome/>
-              
-            </div>
-          )}/>
-          <Route exact={true} path='/AboutMe' render={() => (
-            <div className="App">
-            <ParticlesHome/>
-            </div>
-          )}/>
         </div>
       </BrowserRouter>
 
