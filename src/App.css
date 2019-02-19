@@ -113,12 +113,9 @@ background-color: #9eb1a3;
 
 .Navicons {
   width: 100vw;
-  height: 100vh;
   height: 50px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 69%;
-  left: 48.5%;
+  position: relative;
+  transform: translate(-5.75%, 400%);
   text-align: center;
   display:inline-block;
   height:auto;
