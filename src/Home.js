@@ -2,8 +2,6 @@ import React, {Component} from "react"
 import {SocialIcon} from "react-social-icons"
 import resume from './Misc/resume.png'
 import Resfile from './Misc/VaPhi_Resume.pdf'
-import Button from 'react-bootstrap/Button'
-import AboutMe from './AboutMe'
 
 class Home extends Component {
     render() {
@@ -27,14 +25,14 @@ class Home extends Component {
         </span>
 
         <span>
-          <a href="mailto:vphi@uncc.edu" target="_blank">
+          <a href="mailto:phi.va96@gmail.com" target="_blank">
             <SocialIcon network="mailto" 
             />
           </a>
         </span>
         <span className="ResIcon">
         <a href={Resfile}>
-            <img src={resume} width="50px" height="50px"/>
+            <img src={resume} width="50px" height="50px" alt="va"/>
         </a>
         </span>
       </div>

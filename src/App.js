@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './App.css'
+import './css/App.css'
 import {BrowserRouter, Route, Redirect} from 'react-router-dom'
 import Home from './Home'
 import ParticlesHome from './ParticlesHome'

@@ -25,7 +25,7 @@ class AboutMe extends Component {
             </div>
             <div className="skills">
             <ul class="list-group-horizontal">
-            <li class="list-group-item list-group-item-primary">PROFICIENT :</li>
+            <li class="list-group-item list-group-item-primary">EXPERIENCED :</li>
             <li class="list-group-item list-group-item-success">Java</li>
             <li class="list-group-item list-group-item-success">HTML/CSS</li>
             <li class="list-group-item list-group-item-success">JavaScript</li>
