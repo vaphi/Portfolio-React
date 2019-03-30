@@ -2,11 +2,11 @@ import React, {Component} from "react";
 import Carousel from 'react-bootstrap/Carousel'
 import "../css/Projects.css"
 
-import caro1 from "../carousel/help.png"
-import caro2 from "../carousel/weather.png"
-import caro3 from "../carousel/emoji.png"
-import caro4 from "../carousel/dadjokes.png"
-import caro5 from "../carousel/meme.png"
+import caro1 from "../Misc/carousel1/login.png"
+import caro2 from "../Misc/carousel1/signup.png"
+import caro3 from "../Misc/carousel1/payment.png"
+import caro4 from "../Misc/carousel1/token.png"
+import caro5 from "../Misc/carousel1/ty.png"
 
 class CarouselControl1 extends Component {
 	constructor(props, context) {
@@ -42,8 +42,8 @@ class CarouselControl1 extends Component {
 			  alt= "firstslide"
 			/>
 			<Carousel.Caption>
-			  <h3 style={{color: 'gold'}}>Help Command</h3>
-			  <h6 style={{color: 'gold'}}>When using the help command, the bot will send a personal message to the user</h6>
+			  <h3 style={{color: 'black'}}>Login Page</h3>
+			  <h5 style={{color: 'black'}}>Takes phone number and pass word and checks database if it exist</h5>
 			</Carousel.Caption>
 		  </Carousel.Item>
 		  <Carousel.Item>
@@ -53,8 +53,8 @@ class CarouselControl1 extends Component {
 			/>
   
 			<Carousel.Caption>
-			  <h3 style={{color: 'gold'}}>Weather command</h3>
-			  <h6 style={{color: 'gold'}}>Using a weather library, can request weather forecast of a certain location </h6>
+			  <h3 style={{color: 'black'}}>Sign Up Page</h3>
+			  <h5 style={{color: 'black'}}>Takes a phone number and password and saves it to database</h5>
 			</Carousel.Caption>
 		  </Carousel.Item>
 		  <Carousel.Item>
@@ -64,10 +64,10 @@ class CarouselControl1 extends Component {
 			/>
   
 			<Carousel.Caption>
-			  <h3 style={{color: 'gold'}}>Shrug/Tableflip-Unflip Command/</h3>
-			  <h6 style={{color: 'gold'}}>
-				Common commands to get the bot to display text emojis
-			  </h6>
+			  <h3 style={{color: 'black'}}>Payment Page/</h3>
+			  <h5 style={{color: 'black'}}>
+					Users are charged flat fee using Paypal's API before they can use the product
+			  </h5>
 			</Carousel.Caption>
 		  </Carousel.Item>
 
@@ -77,8 +77,8 @@ class CarouselControl1 extends Component {
 			  alt= "fourthslide"
 			/>
 			<Carousel.Caption>
-			  <h3 style={{color: 'gold'}}>Dad-Jokes Command</h3>
-			  <h6 style={{color: 'gold'}}>Using an array, the bot will display a random index holding a joke</h6>
+			  <h3 style={{color: 'black'}}>Token Session</h3>
+			  <h5 style={{color: 'black'}}>Users are given a token to be able to access private routes such as the payment page and the thank you page</h5>
 			</Carousel.Caption>
 		  </Carousel.Item>
 
@@ -88,8 +88,8 @@ class CarouselControl1 extends Component {
 			  alt= "fifthslide"
 			/>
 			<Carousel.Caption>
-			  <h3 style={{color: 'gold'}}>Meme Command</h3>
-			  <h6 style={{color: 'gold'}}>Using an array, the bot will display a random image</h6>
+			  <h3 style={{color: 'black'}}>Thank You Page</h3>
+			  <h5 style={{color: 'black'}}>After successful payment, users are redirected to the thank you page</h5>
 			</Carousel.Caption>
 		  </Carousel.Item>
 		</Carousel>
