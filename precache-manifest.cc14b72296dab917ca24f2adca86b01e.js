@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/emoji.69a5a575.png"
   },
   {
-    "revision": "ba266482bfa44805b2e3",
+    "revision": "e495ad18221f24d0aef3",
     "url": "/Portfolio/static/css/main.65166590.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/resume.1b5d769a.png"
   },
   {
-    "revision": "601b417205be72ecaa59c7b5f496df3d",
-    "url": "/Portfolio/static/media/VaPhi_Resume.601b4172.pdf"
+    "revision": "2ca3173bf6f9431afdb073fb6b212e9c",
+    "url": "/Portfolio/static/media/VaPhi_Resume.2ca3173b.pdf"
   },
   {
     "revision": "bf7163ff69bb45ebca3d62476158573d",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/weather.bdc4b7d3.png"
   },
   {
-    "revision": "ba266482bfa44805b2e3",
-    "url": "/Portfolio/static/js/main.ba266482.chunk.js"
+    "revision": "e495ad18221f24d0aef3",
+    "url": "/Portfolio/static/js/main.e495ad18.chunk.js"
   },
   {
     "revision": "0c04fb6149c39fb7c5c3e9afe5e7be9e",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/ty.717f55b1.png"
   },
   {
-    "revision": "058a0063044e5bfd0cb989051cf042c5",
+    "revision": "341d9924742ba7a13b47879c8de39dfb",
     "url": "/Portfolio/index.html"
   }
 ];

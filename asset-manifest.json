@@ -1,7 +1,7 @@
 {
   "main.css": "/Portfolio/static/css/main.65166590.chunk.css",
-  "main.js": "/Portfolio/static/js/main.ba266482.chunk.js",
-  "main.js.map": "/Portfolio/static/js/main.ba266482.chunk.js.map",
+  "main.js": "/Portfolio/static/js/main.e495ad18.chunk.js",
+  "main.js.map": "/Portfolio/static/js/main.e495ad18.chunk.js.map",
   "static/js/1.16977f47.chunk.js": "/Portfolio/static/js/1.16977f47.chunk.js",
   "static/js/1.16977f47.chunk.js.map": "/Portfolio/static/js/1.16977f47.chunk.js.map",
   "runtime~main.js": "/Portfolio/static/js/runtime~main.3b961160.js",
@@ -18,9 +18,9 @@
   "static/media/signup.png": "/Portfolio/static/media/signup.f6e0b7f4.png",
   "static/media/payment.png": "/Portfolio/static/media/payment.d593875d.png",
   "static/media/token.png": "/Portfolio/static/media/token.785de59e.png",
-  "static/media/VaPhi_Resume.pdf": "/Portfolio/static/media/VaPhi_Resume.601b4172.pdf",
+  "static/media/VaPhi_Resume.pdf": "/Portfolio/static/media/VaPhi_Resume.2ca3173b.pdf",
   "static/css/main.65166590.chunk.css.map": "/Portfolio/static/css/main.65166590.chunk.css.map",
   "index.html": "/Portfolio/index.html",
-  "precache-manifest.4975afde4641b07985fb84bc668158b0.js": "/Portfolio/precache-manifest.4975afde4641b07985fb84bc668158b0.js",
+  "precache-manifest.cc14b72296dab917ca24f2adca86b01e.js": "/Portfolio/precache-manifest.cc14b72296dab917ca24f2adca86b01e.js",
   "service-worker.js": "/Portfolio/service-worker.js"
 }
